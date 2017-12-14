@@ -7,15 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2815838F1EB9303400846D87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2815838E1EB9303400846D87 /* GoogleService-Info.plist */; };
+		28D406501EE9870100FECB54 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4064F1EE9870100FECB54 /* DataBase.m */; };
+		28D406591EE9872300FECB54 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D406511EE9872300FECB54 /* FirstViewController.swift */; };
+		28D4065A1EE9872300FECB54 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D406521EE9872300FECB54 /* SecondViewController.swift */; };
+		28D4065B1EE9872300FECB54 /* CeldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D406531EE9872300FECB54 /* CeldaTableViewCell.swift */; };
+		28D4065C1EE9872300FECB54 /* platosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D406541EE9872300FECB54 /* platosTableViewController.swift */; };
+		28D4065D1EE9872300FECB54 /* CustomCellPlatosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D406551EE9872300FECB54 /* CustomCellPlatosTableViewCell.swift */; };
+		28D4065E1EE9872300FECB54 /* DetallesDeViajeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D406561EE9872300FECB54 /* DetallesDeViajeTableViewCell.swift */; };
+		28D4065F1EE9872300FECB54 /* DetallesDeViajeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D406571EE9872300FECB54 /* DetallesDeViajeTableViewController.swift */; };
+		28D406601EE9872300FECB54 /* CeldaSecondViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D406581EE9872300FECB54 /* CeldaSecondViewTableViewCell.swift */; };
+		28D406621EE9873400FECB54 /* ruta.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 28D406611EE9873400FECB54 /* ruta.sqlite */; };
+		28D406641EE9883500FECB54 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D406631EE9883500FECB54 /* libsqlite3.tbd */; };
+		389C11291EB27DF8009F1C92 /* BienvenidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C11281EB27DF8009F1C92 /* BienvenidaViewController.swift */; };
+		38CE4BDA1EA91C550071A3B7 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CE4BD91EA91C550071A3B7 /* RegistroViewController.swift */; };
 		38F6C94A1EA7D5550079605E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6C9491EA7D5550079605E /* AppDelegate.swift */; };
 		38F6C94C1EA7D5550079605E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6C94B1EA7D5550079605E /* ViewController.swift */; };
 		38F6C94F1EA7D5550079605E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F6C94D1EA7D5550079605E /* Main.storyboard */; };
 		38F6C9521EA7D5550079605E /* login2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38F6C9501EA7D5550079605E /* login2.xcdatamodeld */; };
 		38F6C9541EA7D5550079605E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F6C9531EA7D5550079605E /* Assets.xcassets */; };
 		38F6C9571EA7D5550079605E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F6C9551EA7D5550079605E /* LaunchScreen.storyboard */; };
+		60E558F095EC9F8BD1B624B0 /* Pods_login2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B20C4069B76B86E658D6EB /* Pods_login2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2815838E1EB9303400846D87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28D4064D1EE9870000FECB54 /* login2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "login2-Bridging-Header.h"; sourceTree = "<group>"; };
+		28D4064E1EE9870100FECB54 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		28D4064F1EE9870100FECB54 /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		28D406511EE9872300FECB54 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		28D406521EE9872300FECB54 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		28D406531EE9872300FECB54 /* CeldaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaTableViewCell.swift; sourceTree = "<group>"; };
+		28D406541EE9872300FECB54 /* platosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = platosTableViewController.swift; sourceTree = "<group>"; };
+		28D406551EE9872300FECB54 /* CustomCellPlatosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellPlatosTableViewCell.swift; sourceTree = "<group>"; };
+		28D406561EE9872300FECB54 /* DetallesDeViajeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallesDeViajeTableViewCell.swift; sourceTree = "<group>"; };
+		28D406571EE9872300FECB54 /* DetallesDeViajeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallesDeViajeTableViewController.swift; sourceTree = "<group>"; };
+		28D406581EE9872300FECB54 /* CeldaSecondViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaSecondViewTableViewCell.swift; sourceTree = "<group>"; };
+		28D406611EE9873400FECB54 /* ruta.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ruta.sqlite; sourceTree = "<group>"; };
+		28D406631EE9883500FECB54 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		389C11281EB27DF8009F1C92 /* BienvenidaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BienvenidaViewController.swift; sourceTree = "<group>"; };
+		389C112A1EB28630009F1C92 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		38CE4BD91EA91C550071A3B7 /* RegistroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		38F6C9461EA7D5550079605E /* login2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = login2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F6C9491EA7D5550079605E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38F6C94B1EA7D5550079605E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +56,9 @@
 		38F6C9531EA7D5550079605E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F6C9561EA7D5550079605E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38F6C9581EA7D5550079605E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B20C4069B76B86E658D6EB /* Pods_login2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_login2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD9CF752B506EF38B92CDE0 /* Pods-login2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login2.release.xcconfig"; path = "Pods/Target Support Files/Pods-login2/Pods-login2.release.xcconfig"; sourceTree = "<group>"; };
+		BCF9B5CD8B94677A32BACABC /* Pods-login2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-login2/Pods-login2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D406641EE9883500FECB54 /* libsqlite3.tbd in Frameworks */,
+				60E558F095EC9F8BD1B624B0 /* Pods_login2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,8 @@
 			children = (
 				38F6C9481EA7D5550079605E /* login2 */,
 				38F6C9471EA7D5550079605E /* Products */,
+				7DF0E7DF73EFDDE24EFBF1AC /* Pods */,
+				B6D84E079C45DA815CE4F068 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,49 @@
 		38F6C9481EA7D5550079605E /* login2 */ = {
 			isa = PBXGroup;
 			children = (
+				2815838E1EB9303400846D87 /* GoogleService-Info.plist */,
+				28D4064E1EE9870100FECB54 /* DataBase.h */,
+				28D406611EE9873400FECB54 /* ruta.sqlite */,
+				28D4064F1EE9870100FECB54 /* DataBase.m */,
 				38F6C9491EA7D5550079605E /* AppDelegate.swift */,
 				38F6C94B1EA7D5550079605E /* ViewController.swift */,
 				38F6C94D1EA7D5550079605E /* Main.storyboard */,
 				38F6C9531EA7D5550079605E /* Assets.xcassets */,
 				38F6C9551EA7D5550079605E /* LaunchScreen.storyboard */,
 				38F6C9581EA7D5550079605E /* Info.plist */,
+				28D406511EE9872300FECB54 /* FirstViewController.swift */,
+				28D406521EE9872300FECB54 /* SecondViewController.swift */,
+				28D406531EE9872300FECB54 /* CeldaTableViewCell.swift */,
+				28D406541EE9872300FECB54 /* platosTableViewController.swift */,
+				28D406551EE9872300FECB54 /* CustomCellPlatosTableViewCell.swift */,
+				28D406561EE9872300FECB54 /* DetallesDeViajeTableViewCell.swift */,
+				28D406571EE9872300FECB54 /* DetallesDeViajeTableViewController.swift */,
+				28D406581EE9872300FECB54 /* CeldaSecondViewTableViewCell.swift */,
 				38F6C9501EA7D5550079605E /* login2.xcdatamodeld */,
+				38CE4BD91EA91C550071A3B7 /* RegistroViewController.swift */,
+				389C11281EB27DF8009F1C92 /* BienvenidaViewController.swift */,
+				389C112A1EB28630009F1C92 /* Header.h */,
+				28D4064D1EE9870000FECB54 /* login2-Bridging-Header.h */,
 			);
 			path = login2;
+			sourceTree = "<group>";
+		};
+		7DF0E7DF73EFDDE24EFBF1AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCF9B5CD8B94677A32BACABC /* Pods-login2.debug.xcconfig */,
+				AAD9CF752B506EF38B92CDE0 /* Pods-login2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6D84E079C45DA815CE4F068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28D406631EE9883500FECB54 /* libsqlite3.tbd */,
+				58B20C4069B76B86E658D6EB /* Pods_login2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38F6C95B1EA7D5550079605E /* Build configuration list for PBXNativeTarget "login2" */;
 			buildPhases = (
+				0095590F568E475207D384CA /* [CP] Check Pods Manifest.lock */,
 				38F6C9421EA7D5550079605E /* Sources */,
 				38F6C9431EA7D5550079605E /* Frameworks */,
 				38F6C9441EA7D5550079605E /* Resources */,
+				5BC2234F1297E99E5CB88B2F /* [CP] Embed Pods Frameworks */,
+				108EF284DC93FC969F3BE50F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +175,7 @@
 				TargetAttributes = {
 					38F6C9451EA7D5550079605E = {
 						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,7 +203,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D406621EE9873400FECB54 /* ruta.sqlite in Resources */,
 				38F6C9571EA7D5550079605E /* LaunchScreen.storyboard in Resources */,
+				2815838F1EB9303400846D87 /* GoogleService-Info.plist in Resources */,
 				38F6C9541EA7D5550079605E /* Assets.xcassets in Resources */,
 				38F6C94F1EA7D5550079605E /* Main.storyboard in Resources */,
 			);
@@ -134,14 +213,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0095590F568E475207D384CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		108EF284DC93FC969F3BE50F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-login2/Pods-login2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC2234F1297E99E5CB88B2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-login2/Pods-login2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38F6C9421EA7D5550079605E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D4065A1EE9872300FECB54 /* SecondViewController.swift in Sources */,
+				389C11291EB27DF8009F1C92 /* BienvenidaViewController.swift in Sources */,
 				38F6C9521EA7D5550079605E /* login2.xcdatamodeld in Sources */,
+				28D406501EE9870100FECB54 /* DataBase.m in Sources */,
+				28D406601EE9872300FECB54 /* CeldaSecondViewTableViewCell.swift in Sources */,
+				28D4065F1EE9872300FECB54 /* DetallesDeViajeTableViewController.swift in Sources */,
+				38CE4BDA1EA91C550071A3B7 /* RegistroViewController.swift in Sources */,
 				38F6C94C1EA7D5550079605E /* ViewController.swift in Sources */,
 				38F6C94A1EA7D5550079605E /* AppDelegate.swift in Sources */,
+				28D4065B1EE9872300FECB54 /* CeldaTableViewCell.swift in Sources */,
+				28D4065C1EE9872300FECB54 /* platosTableViewController.swift in Sources */,
+				28D406591EE9872300FECB54 /* FirstViewController.swift in Sources */,
+				28D4065E1EE9872300FECB54 /* DetallesDeViajeTableViewCell.swift in Sources */,
+				28D4065D1EE9872300FECB54 /* CustomCellPlatosTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,24 +400,33 @@
 		};
 		38F6C95C1EA7D5550079605E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF9B5CD8B94677A32BACABC /* Pods-login2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = login2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = efraim.login2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "login2/login2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		38F6C95D1EA7D5550079605E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD9CF752B506EF38B92CDE0 /* Pods-login2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = login2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = efraim.login2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "login2/login2-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -303,6 +450,7 @@
 				38F6C95D1EA7D5550079605E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
